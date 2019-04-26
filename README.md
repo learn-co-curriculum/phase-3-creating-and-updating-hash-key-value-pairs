@@ -2,8 +2,9 @@
 
 ## Learning Goals
 
-- Update data to a hash using the bracket and value assignment
-- Add data to a hash using the bracket and value assignment
+- Update hash values
+- Add keys and values to a hash
+- Find or create a hash value
 
 ## Introduction
 
