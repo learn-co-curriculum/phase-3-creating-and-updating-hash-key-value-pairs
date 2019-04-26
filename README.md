@@ -27,7 +27,7 @@ hashes. This way, we can create a hash then update it as we need, letting us
 maintain associations between pieces of data, even if the pieces themselves are
 altered.
 
-## Updating Hash Values
+## Update Hash Values
 
 Updating hash values is very similar to looking them up. For updating, we use
 the **bracket-equals** method:
@@ -57,7 +57,7 @@ person
 Using the bracket-equals method, we can mutate any value stored inside a hash.
 All we need to know is the associated key.
 
-## Adding Keys and Values to a Hash
+## Add Keys and Values to a Hash
 
 In the previous lesson, we saw that using the bracket method and passing in an
 invalid key returns `nil`:
@@ -98,7 +98,7 @@ The general syntax for adding a new value to a hash is:
 `hash[:new_key] = "New Value"`. `:new_key` is the literal new key we added to
 the hash and we assigned the `:new_key` a value of `"New Value"`.
 
-## Finding or Creating a Hash Value
+## Find or Create a Hash Value
 
 We saw in the last lesson that the bracket method can be used in conditional
 statements. One common use case of this is having to either find a value in a
