@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-- Update data to a hash using the "bracket" method and value assignment
-- Add data to a hash using the "bracket" method and value assignment
+- Update data to a hash using the bracket and value assignment
+- Add data to a hash using the bracket and value assignment
 
 ## Introduction
 
@@ -195,6 +195,10 @@ increment `shipping_manifest["top hat"]` by one. Else, assign
 
 Running the above conditional once again, the `"top hat"` key will
 be added and set to `1`. Running it again will update `"top hat"` to `2`!
+
+> **STRETCH**: If you think that this is a lot of code just to check and test for
+> `nil`, we agree with you. There's a method on the Hash class that will let you
+> look for a value and set a default if not found.
 
 ## Conclusion
 
