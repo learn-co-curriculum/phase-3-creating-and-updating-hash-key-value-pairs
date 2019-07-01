@@ -101,8 +101,8 @@ the hash and we assigned the `:new_key` a value of `"New Value"`.
 ## Find or Create a Hash Value
 
 We saw in the last lesson that the bracket method can be used in conditional
-statements. One common use case of this is having to either find a value in a
-or _create_ that value. Let's consider what is involved.
+statements. One common use case of this is having to either find a value or 
+_create_ that value. Let's consider what is involved.
 
 First, let's take an example hash:
 
