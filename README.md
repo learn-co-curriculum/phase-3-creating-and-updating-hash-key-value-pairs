@@ -8,7 +8,7 @@
 
 ## Introduction
 
-While we're not able to read hash values using keys, currently, when we create
+While we're now able to read hash values using keys, currently, when we create
 a hash, we're stuck with whatever data was entered in when the hash was created:
 
 ```ruby
